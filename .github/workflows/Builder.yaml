@@ -41,7 +41,7 @@ jobs:
       shell: bash
 
     - name: upload android build artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: dobby-android-build
         path: |
@@ -49,7 +49,7 @@ jobs:
           build/android/
 
     - name: upload raw build files
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: dobby-android-raw
         path: build/
