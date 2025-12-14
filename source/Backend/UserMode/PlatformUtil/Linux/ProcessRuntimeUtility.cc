@@ -11,6 +11,8 @@
 #include <vector>
 #include <algorithm>
 
+#define LINE_MAX 2048
+
 // ================================================================
 // GetProcessMemoryLayout
 
